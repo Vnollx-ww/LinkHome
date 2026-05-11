@@ -4,7 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76eed4c5-1928-4db9-bc1c-1b849ddbb48a" name="更改" comment="" />
+    <list default="true" id="76eed4c5-1928-4db9-bc1c-1b849ddbb48a" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/backend/LinkHome/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/LinkHome/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/LinkHome/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/LinkHome/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/LinkHome/src/main/java/com/example/linkhome/LinkHomeApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/(tabs)/_layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/app/(tabs)/_layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/(tabs)/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/app/(tabs)/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/_layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/app/_layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/parallax-scroll-view.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/parallax-scroll-view.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/ui/icon-symbol.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/ui/icon-symbol.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/hooks/use-theme-color.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/hooks/use-theme-color.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql/create_tables.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sql/create_tables.sql" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,9 +33,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="3DO0U8hOHkMjySH4N7JMTlAcE29" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -30,7 +47,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/JavaCloud/LinkHome/backend/LinkHome",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
@@ -55,6 +73,8 @@
       <option name="presentableId" value="Default" />
       <updated>1778137823620</updated>
       <workItem from="1778137824714" duration="273000" />
+      <workItem from="1778153990439" duration="86000" />
+      <workItem from="1778154117156" duration="65000" />
     </task>
     <servers />
   </component>

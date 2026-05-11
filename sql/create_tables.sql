@@ -321,10 +321,20 @@ CREATE TABLE IF NOT EXISTS lh_energy_daily (
 ) COMMENT='设备能耗日聚合表';
 
 -- 测试数据：账号 test_user / 密码 123456
+INSERT IGNORE INTO lh_device_product(id, product_key, name, category, icon, protocol, property_schema)
+VALUES
+    (1, 'mock.light.v1', '智能灯', 'LIGHT', 'lightbulb', 'MOCK', JSON_OBJECT('power', false, 'brightness', 80, 'colorTemp', 4000, 'color', '#FFFFFF')),
+    (2, 'mock.ac.v1', '智能空调', 'AIR_CONDITIONER', 'snowflake', 'MOCK', JSON_OBJECT('power', false, 'mode', 'COOL', 'temperature', 26, 'fanSpeed', 'AUTO')),
+    (3, 'mock.curtain.v1', '智能窗帘', 'CURTAIN', 'blinds', 'MOCK', JSON_OBJECT('power', true, 'openPercent', 50)),
+    (4, 'mock.plug.v1', '智能插座', 'PLUG', 'plug', 'MOCK', JSON_OBJECT('power', false, 'currentPower', 0)),
+    (5, 'mock.sensor.v1', '温湿度传感器', 'SENSOR', 'thermometer', 'MOCK', JSON_OBJECT('temperature', 24.5, 'humidity', 55, 'battery', 90)),
+    (6, 'mock.camera.v1', '智能摄像头', 'CAMERA', 'camera', 'MOCK', JSON_OBJECT('online', true, 'recording', false, 'streamUrl', 'rtmp://mock.linkhome/stream/living-room', 'hlsUrl', 'https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8')),
+    (7, 'mock.smoke.v1', '烟雾传感器', 'SENSOR', 'fire', 'MOCK', JSON_OBJECT('smoke', false, 'battery', 95));
+
 INSERT IGNORE INTO lh_user(id, username, phone, email, password_hash, status, created_at)
 VALUES
     (1001, '测试用户', 'test_user', 'test_user@linkhome.local',
-     '$2a$10$7QJ8bZxQfR9yI5l3sH9KYeXnTgJv0mN6uQfKp8mGmR3wTjWmQxXbG', 'ACTIVE', NOW());
+     '$2a$10$9ssl2ZiTycMvbNFifh8kcOlryxAvSG6.ZQ0ecDQUVU9dqXRpWBLA6', 'ACTIVE', NOW());
 
 INSERT IGNORE INTO lh_family(id, name, owner_user_id, address, city, timezone, status, created_at)
 VALUES
